@@ -40,7 +40,7 @@ export function Hero() {
           {/* Image */}
           <div className="relative flex justify-center lg:justify-end animate-slide-in-right" style={{ animationDelay: "0.2s" }}>
             <div className="relative">
-              <div className="w-72 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[480px] rounded-tl-[120px] rounded-tr-3xl rounded-br-3xl rounded-bl-3xl overflow-hidden bg-oxford-blue-light/30">
+              <div className="w-72 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[480px] rounded-tl-[120px] rounded-tr-3xl rounded-br-3xl rounded-bl-3xl overflow-hidden bg-steel-blue-light/30">
                 <img
                   src={jakePortrait}
                   alt="Jake Demi - Professional Bookkeeper"
