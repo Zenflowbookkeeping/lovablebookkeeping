@@ -1,2 +1,20 @@
-/index.html   /index.html   200
-/*            /index.html   200
+# Serve existing html files directly
+/*.html     /:splat    200
+
+# Serve common static assets directly so they are not rewritten
+/*.js       /:splat    200
+/*.css      /:splat    200
+/*.png      /:splat    200
+/*.jpg      /:splat    200
+/*.jpeg     /:splat    200
+/*.svg      /:splat    200
+/*.webp     /:splat    200
+/*.ico      /:splat    200
+/*.json     /:splat    200
+/*.map      /:splat    200
+
+# Explicitly serve index.html when requested
+/index.html /index.html 200
+
+# Finally: fallback - only used for routes without a file extension
+/*          /index.html  200
